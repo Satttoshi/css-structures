@@ -88,7 +88,7 @@ footer a {
 }
 
 /* 7. These styles should apply to all paragraphs and all lists (please use a class selector) */
-p,
+.text,
 .list {
   outline: 2px dashed red;
   color: #2c3f3f;
@@ -115,27 +115,27 @@ footer p {
 }
 
 /* 11. These styles should apply to all lists */
-ul {
+.list {
   outline: 2px dashed red;
   padding: 1rem 2rem;
   background: #caced2;
 }
 
 /* 12. These styles should apply to all list items */
-li {
+.list li {
   outline: 2px dashed red;
   margin: 0 0 0.5rem 0;
 }
 
 /* 13. These styles should apply to all nested lists */
-ul ul {
+.list ul {
   outline: 2px dashed red;
   margin: 0.5rem 0 0 0;
   background-color: #f1f1f1;
 }
 
 /* 14. These styles should apply to all list items in nested lists */
-li li {
+.list .list li {
   outline: 2px dashed red;
   margin: 0;
   color: #2673bb;
